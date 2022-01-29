@@ -55,6 +55,7 @@
         <td>access_token_secret</td>
     </tr>
    </table>
+   
 * Copy Spark jar file to new place: `cp ./target/scala-2.12/Sentiment_Analysis-assembly-0.2.0.jar ../docker/spark/SparkJob`.
 * Create *hadoop-network* with command: `docker network create --driver bridge spark-network --subnet=172.16.0.0/16`.
 * Then, you go into the project and run command to build the hadoop cluster: `docker-compose build`.
