@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="Sentiment_Analysis,Sentiment_analysis,Sentiment_analysis.Sentiment_Analysis,sentiment_analysis_6289" />
+  </component>
+</project>

@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec({file:/home/datpt7/Documents/getDataFromTwitter/Sentiment_analysis/}root/clean, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mExpected project ID[0m
+[0m[[0m[31merror[0m] [0m[0m{file:/home/datpt7/Documents/getDataFromTwitter/Sentiment_analysis/}root/clean[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                        ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

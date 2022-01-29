@@ -1,0 +1,126 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.5 (Ubuntu Java 11.0.13)
+[debug]       Load.loadUnit: plugins took 247.194802ms
+[debug]       Load.loadUnit: defsScala took 0.843233ms
+[debug] [Loading] Scanning directory /home/datpt7/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/datpt7/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 37.358334 ms
+[debug]           Load.resolveProject(global-plugins) took 93.317764ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/datpt7/.sbt/1.0/plugins, plugins: List(<none>))) took 198.773299ms
+[debug] [Loading] Done in /home/datpt7/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 249.824959ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.540467ms
+[debug]     Load.loadUnit(file:/home/datpt7/.sbt/1.0/plugins/, ...) took 546.034253ms
+[debug]   Load.apply: load took 917.351334ms
+[debug]   Load.apply: resolveProjects took 11.592526ms
+[debug]   Load.apply: finalTransforms took 195.81693ms
+[debug]   Load.apply: config.delegates took 21.97218ms
+[debug]   Load.apply: Def.make(settings)... took 1410.592535ms
+[debug]   Load.apply: structureIndex took 625.750571ms
+[debug]   Load.apply: mkStreams took 17.610928ms
+[info] loading global plugins from /home/datpt7/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 8094.2134ms
+[debug]           Load.loadUnit: plugins took 42.237454ms
+[debug]           Load.loadUnit: defsScala took 0.008221ms
+[debug] [Loading] Scanning directory /home/datpt7/Documents/getDataFromTwitter/Sentiment_analysis/project
+[debug]             Load.loadUnit: mkEval took 12.393726ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/datpt7/Documents/getDataFromTwitter/Sentiment_analysis/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.652127 ms
+[info] loading settings for project sentiment_analysis-build from plugins.sbt ...
+[debug]               Load.resolveProject(sentiment_analysis-build) took 4.800635ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id sentiment_analysis-build, base: /home/datpt7/Documents/getDataFromTwitter/Sentiment_analysis/project, plugins: List(<none>))) took 10.604663ms
+[debug] [Loading] Done in /home/datpt7/Documents/getDataFromTwitter/Sentiment_analysis/project, returning: (sentiment_analysis-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3596.027218ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.72223ms
+[debug]         Load.loadUnit(file:/home/datpt7/Documents/getDataFromTwitter/Sentiment_analysis/project/, ...) took 3646.455653ms
+[debug]       Load.apply: load took 3648.829243ms
+[debug]       Load.apply: resolveProjects took 0.140633ms
+[debug]       Load.apply: finalTransforms took 22.598693ms
+[debug]       Load.apply: config.delegates took 0.795579ms
+[debug]       Load.apply: Def.make(settings)... took 178.539831ms
+[debug]       Load.apply: structureIndex took 73.288697ms
+[debug]       Load.apply: mkStreams took 0.005679ms
+[info] loading project definition from /home/datpt7/Documents/getDataFromTwitter/Sentiment_analysis/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 4705.059714ms
+[debug]     Load.loadUnit: defsScala took 0.007646ms
+[debug] [Loading] Scanning directory /home/datpt7/Documents/getDataFromTwitter/Sentiment_analysis
+[debug]       Load.loadUnit: mkEval took 0.392731ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtassembly.AssemblyPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbtassembly.AssemblyPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 6.532994 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.713821ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /home/datpt7/Documents/getDataFromTwitter/Sentiment_analysis, plugins: List(<none>))) took 11.85937ms
+[debug] [Loading] Done in /home/datpt7/Documents/getDataFromTwitter/Sentiment_analysis, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3947.604367ms
+[debug]     Load.loadUnit: cleanEvalClasses took 16.906325ms
+[debug]   Load.loadUnit(file:/home/datpt7/Documents/getDataFromTwitter/Sentiment_analysis/, ...) took 8671.258779ms
+[debug] Load.apply: load took 8674.684934ms
+[debug] Load.apply: resolveProjects took 0.236958ms
+[debug] Load.apply: finalTransforms took 22.567083ms
+[debug] Load.apply: config.delegates took 1.009193ms
+[debug] Load.apply: Def.make(settings)... took 147.834794ms
+[debug] Load.apply: structureIndex took 82.299903ms
+[debug] Load.apply: mkStreams took 0.005413ms
+[info] set current project to Sentiment_Analysis (in build file:/home/datpt7/Documents/getDataFromTwitter/Sentiment_analysis/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/datpt7/.sbt/1.0/server/ffba461048e46d8c1136/sock
+[debug] Writing bsp connection file
+[info] started sbt server
