@@ -39,6 +39,7 @@
 * Build Spark jar file before build docker image:
   * `cd Sentiment_Analysis`
   * `sbt-assembly`
+* Create Twitter Developer Account and get 4 keys. 
 * Copy Spark jar file to new place: `cp ./target/scala-2.12/Sentiment_Analysis-assembly-0.2.0.jar ../docker/spark/SparkJob`.
 * Create *hadoop-network* with command: `docker network create --driver bridge spark-network --subnet=172.16.0.0/16`.
 * Then, you go into the project and run command to build the hadoop cluster: `docker-compose build`.
